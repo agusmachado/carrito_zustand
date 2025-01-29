@@ -14,7 +14,7 @@ export default function Automovil({automovil} : AutomovilProps) {
                 <div className="col-10 row align-items-center mx-auto">
                 <img 
                     className="img-fluid" 
-                    src={`./img/${image}.jpg`} 
+                    src={`img/${image}.jpg`} 
                     alt={`Imagen de ${name}`} 
                 />  
                 <h3 className="text-black fs-4 fw-bold text-uppercase">{name}</h3>
